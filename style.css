@@ -8,7 +8,7 @@
     border: 1px solid rgba(0, 0, 0, 0.391);
     width: 369px;
     margin: auto;
-    height: 104px;
+    height: 103px;
     background-color: #F4F4F4;
     font-family: "Pragmatica", sans-serif;
     position: absolute;
@@ -84,5 +84,10 @@
     align-items: center;
     gap: 6px;
     margin-top: 7px;
-    margin-bottom: 9px;
+}
+
+@media (max-width:369px){
+    .player {
+        padding-bottom: 9px;
+    }
 }
