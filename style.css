@@ -23,8 +23,17 @@
     height: 50px;
 }
 
-.text {
+.player {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 7px;
+}
+
+.play-button {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .play {
@@ -79,14 +88,7 @@
     justify-content: space-between;
 }
 
-.player {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-top: 7px;
-}
-
-@media (max-width:369px){
+@media (max-width:369px) {
     .player {
         margin-bottom: 100px;
     }
