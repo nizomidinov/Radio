@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    border: 1px solid rgba(0, 0, 0, 0.391);
+    width: 369px;
+    margin: auto;
+    height: 103px;
+    background-color: #F4F4F4;
+    font-family: "Pragmatica", sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+}
+
+.logo img {
+    max-width: 61px;
+    height: 50px;
+}
+
+.text {
+    position: relative;
+}
+
+.play {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.pause {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.container {
+    margin: 10px 18px;
+}
+
+.radio-akle {
+    font-size: 11px;
+    font-weight: 400;
+    color: #7C7C7C;
+}
+
+.artist-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.track-name {
+    font-size: 15px;
+    font-weight: 400;
+    color: #303030;
+}
+
+.time {
+    font-size: 10px;
+    font-weight: 400;
+    color: #7C7C7C;
+    margin-left: 22px;
+}
+
+.text-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 7px;
+}
