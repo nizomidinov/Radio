@@ -34,6 +34,8 @@
     position: relative;
     display: flex;
     align-items: center;
+    width: 16px;
+    height: 16px;
 }
 
 .play {
@@ -41,6 +43,8 @@
     height: 16px;
     position: absolute;
     cursor: pointer;
+    top: 0;
+    left: 0;
 }
 
 .pause {
@@ -51,6 +55,8 @@
     pointer-events: none;
     transition: all 0.4s ease;
     cursor: pointer;
+    top: 0;
+    left: 0;
 }
 
 .container {
@@ -79,7 +85,6 @@
     font-size: 10px;
     font-weight: 400;
     color: #7C7C7C;
-    margin-left: 22px;
 }
 
 .text-img {
