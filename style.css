@@ -4,13 +4,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('ofont.ru_Pragmatica.ttf') format('ttf'),
+        url('ofont.ru_Pragmatica.ttf') format('ttf');
+    font-display: swap;
+}
+
 .main {
     border: 1px solid rgba(0, 0, 0, 0.391);
     width: 369px;
     margin: auto;
-    height: 103px;
+    min-height: 103px;
     background-color: #F4F4F4;
-    font-family: "Pragmatica", sans-serif;
+    font-family: 'Pragmatica', sans-serif;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -91,10 +98,4 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-@media (max-width:369px) {
-    .player {
-        margin-bottom: 100px;
-    }
 }

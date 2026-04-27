@@ -1,5 +1,5 @@
-const play = document.getElementsByClassName("play")[0]
-const pause = document.getElementsByClassName("pause")[0]
+let play = document.getElementsByClassName("play")[0]
+let pause = document.getElementsByClassName("pause")[0]
 play.onclick = function () {
     pause.style.opacity = "1"
     pause.style.pointerEvents = "auto"
