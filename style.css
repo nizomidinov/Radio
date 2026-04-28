@@ -67,7 +67,7 @@
 }
 
 .container {
-    margin: 10px 18px;
+    margin: 25px 18px;
 }
 
 .radio-akle {
@@ -76,16 +76,11 @@
     color: #7C7C7C;
 }
 
-.artist-name {
-    font-size: 20px;
+.track-name {
+    font-size: 24px;
     font-weight: 600;
     margin-top: 5px;
-}
-
-.track-name {
-    font-size: 15px;
-    font-weight: 400;
-    color: #303030;
+    margin-bottom: 5px;
 }
 
 .time {
